@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
+    <meta charset="pt-br">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -12,21 +12,21 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
-      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="120" height="50"></a>
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="120" height="50" ></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+      
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link btn btn-outline-primary m-2" href="#home">Home <span class="sr-only">Carroussel</span></a>
+            <a class="nav-link btn btn-outline-primary m-2" href="#home">Home<span class="sr-only">Carroussel</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link btn btn-outline-primary m-2" href="#trips">Trips <span class="sr-only">Dicas de Passeios</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link btn btn-outline-primary m-2" href="#sobre">Sobre a Ilha <span class="sr-only">História da Ilha Bela</span></a>
+            <a class="nav-link btn btn-outline-primary m-2" href="#sobre">Sobre <span class="sr-only">História da Ilha Bela</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link btn btn-outline-primary m-2" href="#contato">Contato <span class="sr-only">Fale Conosco</span></a>
@@ -38,7 +38,7 @@
         </form>
       </div>
     </nav>
-
+    <h1 id="home"></h1>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-right" data-aos-duration="2000">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -60,39 +60,34 @@
         <span class="sr-only">Próximo</span>
       </a>
     </div>
-
-    <div class="jumbotron jumbotron-fluid" id="trips">
+    <div class="jumbotron jumbotron-fluid shadow rounded" data-aos="zoom-in" data-aos-duration="500" id="trips">
       <div class="container">
-        <h1 class="display-4">Trips</h1>
-        <p class="lead">Dicas de viagens</p>
+        <h5 class="display-4 text-center">Trips</h5>
+        <p class="lead text-center">Dicas de viagens</p>
       </div>
     </div>
-
  <!--Cards-->
  <div class="container">
   <div class="card-columns">
-    <div class="card">
+    <div class="card"  data-aos="fade-right" data-aos-duration="500">
       <img class="card-img-top" src="assets/img/card1.png" data-aos="fade-up" data-aos-duration="1000" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-        <p class="card-text ">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a
-          um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+        <h5 class="card-title">Piscina Natural de Ilha Bela</h5>
+        <p class="card-text ">Coloque no GPS “Av. Governador Mário Covas Júnior, 12300”. Estacione no acostamento (respeitando sempre os locais onde é proibido estacionar e, principalmente, as calçadas para os pedestres). Hoje, já existem placas de identificação sinalizando a entrada para a trilha da Piscina Natural.</p>
       </div>
     </div>
-    <div class="card">
+    <div class="card"  data-aos="fade-down" data-aos-duration="500">
       <img class="card-img-top" src="assets/img/card2.png" data-aos="fade-up" data-aos-duration="2000" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-        <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a
-          um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+        <h5 class="card-title">Cachoeira do Poço Fundo</h5>
+        <p class="card-text">A Cachoeira do Poço Fundo fica na incrível Praia do Bonete, em que você precisará fazer uma pequena trilha de mais ou menos 10 minutos caminhando a partir da praia, mas fique tranquilo, é super tranquila e sinalizada. </p>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-aos="fade-left" data-aos-duration="500">
       <img class="card-img-top" src="assets/img/card3.png" data-aos="fade-up" data-aos-duration="3000" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-        <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a
-          um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+        <h5 class="card-title">Cachoeira da Laje</h5>
+        <p class="card-text">Dirija sentido sul da ilha até chegar ao fim do asfalto. Siga pela estrada de terra até o final dela, onde terá uma porteira e estacionamento. Continue a pé pela trilha até avistar a placa da Fazenda da Laje. Siga pela trilha até encontrar a primeira cachoeira que cruza e divide o caminho da trilha. Cerca de uma hora de caminhada!!! </p>
       </div>
     </div>
 
@@ -100,87 +95,88 @@
   </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid" id="sobre">
+<div class="jumbotron jumbotron-fluid shadow rounded" data-aos="zoom-in" data-aos-duration="500" id="sobre">
   <div class="container">
-    <h1 class="display-4">Sobre Ilha Bela</h1>
-    <p class="lead">Um pouco sobre a Ilha Bela ...</p>
+    <h5 class="display-4 text-center ">Sobre Ilha Bela</h5>
+    <p class="lead text-center">Um pouco sobre a Ilha Bela ...</p>
   </div>
 </div>
   <!--/Cards-->
 
   <!--Texto e Video-->
-  <div class="container" id="sobre">
+  <div class="container" >
   <div class="row mt-5 mb-5">
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="fade-right" data-aos-duration="500">
       <h3>A Ilha Bela é boa mesmo ?</h3>
       <p>Ilhabela está entre os melhores destinos do Litoral Norte de São Paulo para quem busca lindas praias. O conjunto de ilhas oferece faixas de areia maravilhosas e tudo é emoldurado por grandes montanhas e pelo intenso verde que cerca o lugar. Ilhabela desperta paixões entre os visitantes, que encontram na região uma ótima oportunidade de aliar conforto, preço acessível, bons serviços e excelentes praias. É uma boa pedida para passar um feriado prolongado ou alguns dias de férias e descanso de frente para o mar. E basta a previsão do tempo em Ilhabela ajudar, que todos correm para pegar a balsa até lá!
       </p>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="fade-left" data-aos-duration="500">
       <iframe width="540" height="300" src="https://www.youtube.com/embed/CHS6Ew7_Fsc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
   <!--/Texto e Video-->
 
-  <div class="jumbotron jumbotron-fluid" id="contato">
+  <div class="jumbotron jumbotron-fluid shadow rounded" id="contato" data-aos="zoom-in" data-aos-duration="500">
     <div class="container">
-      <h1 class="display-4">Contato</h1>
-      <p class="lead">Entre em contato conosco e agenda sua visita ...</p>
+      <h5 class="display-4 text-center">Contato</h5>
+      <p class="lead text-center">Entre em contato conosco e agenda sua visita ...</p>
     </div>
   </div>
     <!--Contato-->
     <div class="container" id="sobre">
       <div class="row mt-5 mb-5">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-right" data-aos-duration="500">
           <form>
             <div class="form-row">
               <div class="col-md-6 mb-3">
                 <label for="validationDefault01">Nome:</label>
-                <input type="text" class="form-control" id="validationDefault01" value="Digite seu nome" required>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Digite seu nome" required>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="validationDefault02">Sobrenome:</label>
-                <input type="text" class="form-control" id="validationDefault02" value="Digite seu sobrenome" required>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Digite seu sobrenome" required>
               </div>
             </div>
             <div class="form-row">
               <div class="col-md-6 mb-3">
                 <label for="validationDefault03">Email:</label>
-                <input type="text" class="form-control" id="validationDefault03" required>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="Digite seu email" required>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="validationDefault05">Assunto:</label>
-                <input type="text" class="form-control" id="validationDefault05" required>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="Digite seu assunto" required>
               </div>
-              <div class="col-md-6 mb-3">
-                <label for="validationDefault05">Assunto:</label>
-                <input type="textarea" class="form-control" id="validationDefault05" required>
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault06">Mensagem:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  required></textarea>
               </div>
             </div>
-            <button class="btn btn-primary" type="submit">Submit form</button>
+            <button class="btn btn-primary" type="submit" >Enviar</button>
           </form>
         </div>
     
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-left" data-aos-duration="500">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58407.26069319906!2d-45.40343285211044!3d-23.802457148182754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d299a1e1b58951%3A0xdb1cb1ae3f4ba322!2sIlhabela%2C%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1606422440975!5m2!1sen!2sbr" width="540" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
     </div>
       <!--/Contato-->
 
-  <footer class="footer">
+  <footer class="footer bg-primary">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <p class="text-center font-weight-bold p-2">     Todos os direitos reservados: Victor Rigoleto &copy</p> 
     <div class="row mb-3">        
-      <div class="col-md-12 d-flex justify-content-center">                      
-        <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>                
-        <a href="#" class="footer__icon"><i class='bx bxl-linkedin' ></i></a> 
-        <a href="#" class="footer__icon"><i class='bx bxl-github' ></i></a>                 
+      <div class="col-md-12 d-flex justify-content-center">                   
+        <a href="#" class="footer__icon p-1"><i class='bx bxl-facebook bx-sm text-white'></i></a>                
+        <a href="#" class="footer__icon p-1"><i class='bx bxl-linkedin bx-sm text-white'></i></a> 
+        <a href="#" class="footer__icon p-1"><i class='bx bxl-github bx-sm text-white'></i></a>   
       </div>  
     </div>
-    <div class="row">        <div class="col-md-12">          <p class="text-center">     Todos os direitos reservados: Victor Rigoleto &copy          </p>        </div>      </div>
     </footer>
+  
 
 
 
